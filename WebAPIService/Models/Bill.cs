@@ -10,5 +10,9 @@ namespace WebAPIService.Models
         public int BillID { get; set; }
 
         public DateTime Date { get; set; }
+
+        public int MyProperty { get; set; }
+
+        //Realizar referencias a las demás entidades.
     }
 }
